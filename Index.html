@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KONSE BALENKABILA - Timeless Fashion, Everyday Quality</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', 'Segoe UI', sans-serif; }
+    body { color: #222; background: #fff; }
+    
+    header { background: #111; color: #fff; padding: 18px 6%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; }
+    header h1 { font-size: 1.4rem; letter-spacing: 3px; font-weight: 700; }
+    header nav a { color: #fff; text-decoration: none; margin-left: 25px; font-size: 0.95rem; }
+    header nav a:hover { color: #e6b800; }
+    
+    .hero { background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1200') center/cover; color: #fff; text-align: center; padding: 120px 20px; }
+    .hero h2 { font-size: 2.8rem; margin-bottom: 15px; letter-spacing: 2px; }
+    .hero p { font-size: 1.1rem; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto; }
+    .btn { background: #e6b800; color: #111; padding: 14px 30px; border-radius: 30px; text-decoration: none; font-weight: 600; transition: 0.3s; display: inline-block; }
+    .btn:hover { background: #c49c00; transform: translateY(-2px); }
+    
+    .section { padding: 70px 6%; text-align: center; }
+    .section h3 { font-size: 2rem; margin-bottom: 15px; }
+    .section p.subtitle { color: #666; margin-bottom: 40px; }
+    
+    .categories { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 25px; margin-bottom: 50px; }
+    .cat { background: #f8f8f8; padding: 25px; border-radius: 12px; }
+    .cat h4 { margin-bottom: 8px; font-size: 1.1rem; }
+    
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 30px; }
+    .product { border: 1px solid #eee; border-radius: 12px; overflow: hidden; background: #fff; text-align: left; transition: 0.3s; }
+    .product:hover { box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
+    .product img { width: 100%; height: 320px; object-fit: cover; }
+    .product-info { padding: 18px; }
+    .product-info h5 { font-size: 1.1rem; margin-bottom: 5px; }
+    .product-info p { font-size: 0.9rem; color: #666; margin-bottom: 10px; }
+    .price { color: #e6b800; font-weight: 700; font-size: 1.2rem; margin-bottom: 12px; }
+    
+    .why { background: #111; color: #fff; }
+    .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px; }
+    .why-item { padding: 20px; }
+    
+    footer { background: #000; color: #aaa; text-align: center; padding: 35px 6%; }
+    .socials a { color: #e6b800; text-decoration: none; margin: 0 10px; }
+    .whatsapp { position: fixed; bottom: 20px; right: 20px; background: #25D366; color: #fff; padding: 15px 18px; border-radius: 50%; font-size: 22px; text-decoration: none; }
+    
+    @media(max-width: 768px) { 
+      .hero h2 { font-size: 2rem; } 
+      header nav { display: none; } 
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>KONSE BALENKABILA</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#collection">Collection</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Timeless Style. Everyday Quality.</h2>
+    <p>Discover fashion pieces that blend classic elegance with modern trends. Built to last, made to impress.</p>
+    <a href="#collection" class="btn">Shop The Collection</a>
+  </section>
+
+  <section class="section" id="about">
+    <h3>Our Specialties</h3>
+    <p class="subtitle">Curated essentials for men and women who value quality</p>
+    <div class="categories">
+      <div class="cat">
+        <h4>👗 Women’s Wear</h4>
+        <p>Dresses, blouses, and sets for work and weekends</p>
+      </div>
+      <div class="cat">
+        <h4>👔 Men’s Wear</h4>
+        <p>Shirts, trousers, and smart-casual staples</p>
+      </div>
+      <div class="cat">
+        <h4>👜 Accessories</h4>
+        <p>Bags, belts, watches, and jewelry to complete your look</p>
+      </div>
+      <div class="cat">
+        <h4>👟 Footwear</h4>
+        <p>Comfortable and stylish shoes for every occasion</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="collection" style="background:#fafafa;">
+    <h3>Best-Selling Essentials</h3>
+    <p class="subtitle">Common pieces, uncommon quality</p>
+    <div class="products">
+      
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=600" alt="Elegant Dress">
+        <div class="product-info">
+          <h5>Classic Midi Wrap Dress</h5>
+          <p>Flattering fit, breathable fabric. Perfect for office or dinner.</p>
+          <p class="price">K 1,250.00</p>
+          <a href="https://wa.me/26097XXXXXXX" class="btn" style="padding:10px 18px; font-size:0.9rem;">Order on WhatsApp</a>
+        </div>
+      </div>
+      
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10?q=80&w=600" alt="Men Shirt">
+        <div class="product-info">
+          <h5>Premium Oxford Shirt</h5>
+          <p>100% cotton, tailored fit. A wardrobe must-have.</p>
+          <p class="price">K 850.00</p>
+          <a href="https://wa.me/26097XXXXXXX" class="btn" style="padding:10px 18px; font-size:0.9rem;">Order on WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1591561954557-26941169b49e?q=80&w=600" alt="Leather Bag">
+        <div class="product-info">
+          <h5>Minimalist Leather Tote</h5>
+          <p>Genuine leather. Spacious, durable, and timeless design.</p>
+          <p class="price">K 1,950.00</p>
+          <a href="https://wa.me/26097XXXXXXX" class="btn" style="padding:10px 18px; font-size:0.9rem;">Order on WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=600" alt="Sneakers">
+        <div class="product-info">
+          <h5>Everyday White Sneakers</h5>
+          <p>Lightweight, cushioned sole. Pairs with anything.</p>
+          <p class="price">K 1,100.00</p>
+          <a href="https://wa.me/26097XXXXXXX" class="btn" style="padding:10px 18px; font-size:0.9rem;">Order on WhatsApp</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section why">
+    <h3>Why Shop With KONSE BALENKABILA</h3>
+    <div class="why-grid">
+      <div class="why-item">
+        <h4>✨ High-Quality Fabrics</h4>
+        <p>We choose materials that feel good and last longer.</p>
+      </div>
+      <div class="why-item">
+        <h4>🚚 Fast Delivery</h4>
+        <p>Get your orders delivered to your door within 24-48 hours in Kitwe & nationwide.</p>
+      </div>
+      <div class="why-item">
+        <h4>💬 Customer First</h4>
+        <p>Shop via WhatsApp, Facebook, or TikTok. Easy support, easy returns.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h3>Let’s Connect</h3>
+    <p>DM us or order directly through WhatsApp</p>
+    <a href="https://wa.me/26097XXXXXXX" class="btn" style="margin-top:15px;">Chat on WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>© 2026 KONSE BALENKABILA. All rights reserved.</p>
+    <p class="socials">Follow us: 
+      <a href="#">Facebook</a> | 
+      <a href="#">TikTok</a> | 
+      <a href="#">Instagram</a>
+    </p>
+  </footer>
+
+  <a href="https://wa.me/26097XXXXXXX" class="whatsapp">💬</a>
+
+</body>
+  </html>
